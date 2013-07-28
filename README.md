@@ -10,4 +10,7 @@
 
 # Author
 
-Author:: YOUR_NAME (<YOUR_EMAIL>)
+Author:: David Higgins (<creo@adamo.ca>)
+=======
+chef-cookbook
+=============
