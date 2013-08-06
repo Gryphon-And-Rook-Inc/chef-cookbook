@@ -8,3 +8,6 @@ version          '0.1.0'
 recipe           "creoadamo::groups", "Create and manage groups"
 recipe           "creoadamo::ruby-1.9.3-p362", "Install ruby_build, rbenv, and ruby 1.9.3-p362"
 
+%w{ rbenv ruby_build users chef-solo-search apt build-essential git }.each do |cb|
+  depends cb
+end
