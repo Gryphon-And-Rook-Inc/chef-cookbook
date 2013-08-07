@@ -5,8 +5,12 @@ license          'All rights reserved'
 description      'Installs/Configures creoadamo recipes'
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
 version          '0.1.0'
-recipe           "creoadamo::groups", "Create and manage groups"
-recipe           "creoadamo::ruby-1.9.3-p362", "Install ruby_build, rbenv, and ruby 1.9.3-p362"
+recipe           "creoadamo::apt_update",       "Update apt-get"
+recipe           "creoadamo::fish_shell",       "Compile, Install, and link Fish shell"
+recipe           "creoadamo::groups",           "Create and manage groups"
+recipe           "creoadamo::nodejs",           "Install Nodejs and Package Manager"
+recipe           "creoadamo::ruby-1.9.3-p362",  "Install ruby_build, rbenv, and ruby 1.9.3-p362"
+recipe           "creoadamo::ruby-2.0.0-p195",  "Install ruby_build, rbenv, and ruby 2.0.0-p195"
 
 %w{ rbenv ruby_build users chef-solo-search apt build-essential git }.each do |cb|
   depends cb
