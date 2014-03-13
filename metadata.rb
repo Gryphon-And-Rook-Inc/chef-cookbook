@@ -11,6 +11,9 @@ recipe           "creoadamo::groups",           "Create and manage groups"
 recipe           "creoadamo::nodejs",           "Install Nodejs and Package Manager"
 recipe           "creoadamo::ruby-1.9.3-p362",  "Install ruby_build, rbenv, and ruby 1.9.3-p362"
 recipe           "creoadamo::ruby-2.0.0-p195",  "Install ruby_build, rbenv, and ruby 2.0.0-p195"
+recipe           "creoadamo::ruby-2.0.0-p247",  "Install ruby_build, rbenv, and ruby 2.0.0-p247"
+recipe           "creoadamo::ruby-2.1.1",       "Install ruby_build, rbenv, and ruby 2.1.1"
+recipe           "creoadamo::ruby-2.1.1-p76",   "Install ruby_build, rbenv, and ruby 2.1.1-p76"
 
 %w{ rbenv ruby_build users chef-solo-search apt build-essential git }.each do |cb|
   depends cb
