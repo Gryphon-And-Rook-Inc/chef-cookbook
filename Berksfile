@@ -8,4 +8,4 @@ cookbook 'sudo'
 cookbook 'ruby_build'
 cookbook 'rbenv'
 
-cookbook 'opsworks_custom_env', git: 'https://github.com/joeyAghion/opsworks_custom_env.git'
+cookbook 'opsworks-cookbook-custom-env', git: 'https://github.com/diegodurante/opsworks-cookbook-custom-env.git'
