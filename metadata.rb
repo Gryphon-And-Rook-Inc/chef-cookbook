@@ -14,7 +14,9 @@ recipe           'gryphonandrook::ruby-2.0.0-p195',  'Install ruby_build, rbenv,
 recipe           'gryphonandrook::ruby-2.0.0-p247',  'Install ruby_build, rbenv, and ruby 2.0.0-p247'
 recipe           'gryphonandrook::ruby-2.1.1',       'Install ruby_build, rbenv, and ruby 2.1.1'
 recipe           'gryphonandrook::ruby-2.1.1-p76',   'Install ruby_build, rbenv, and ruby 2.1.1-p76'
-recipe           'opsworks_custom_env::custom_env',  'Install Custom Env for OpsWorks'
+recipe           'opsworks-cookbook-custom-env::custom_env',  'Install Custom Env for OpsWorks'
+recipe           'opsworks_custom_env::configure',   'Configure Custom Env for OpsWorks'
+recipe           'whenever::default',                'Configure Whenever OpsWorks'
 
 %w{ rbenv ruby_build users chef-solo-search apt build-essential git }.each do |cb|
   depends cb
