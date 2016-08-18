@@ -9,5 +9,5 @@ cookbook 'opsworks_delayed_job', git: 'https://github.com/joeyAghion/opsworks_de
 cookbook 'gnr_whenever', git: 'https://github.com/positronicninja/gnr_whenever.git'
 cookbook 'gnr_authorized_users', git: 'https://github.com/positronicninja/gnr_authorized_users.git'
 cookbook 'gnr_elasticsearch', git: 'https://github.com/positronicninja/gnr_elasticsearch.git'
-cookbook 'nginx', git: 'https://github.com/positronicninja/nginx_templates.git'
+cookbook 'nginx', git: 'https://github.com/positronicninja/chef_nginx_templates.git'
 cookbook 'unicorn', git: 'https://github.com/positronicninja/chef_unicorn_templates.git'
