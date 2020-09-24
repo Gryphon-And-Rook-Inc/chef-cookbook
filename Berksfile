@@ -9,6 +9,7 @@ cookbook 'opsworks-cookbook-custom-env', git: 'https://github.com/diegodurante/o
 cookbook 'opsworks_delayed_job', git: 'https://github.com/joeyAghion/opsworks_delayed_job.git'
 cookbook 'gnr_whenever', git: 'https://github.com/positronicninja/gnr_whenever.git'
 cookbook 'gnr_authorized_users', git: 'https://github.com/Gryphon-And-Rook-Inc/gnr_authorized_users.git'
+cookbook 'gnr_install_wkhtmltopdf_0.12.2.1', git: 'https://github.com/Gryphon-And-Rook-Inc/gnr_install_wkhtmltopdf_0.12.2.1.git'
 cookbook 'gnr_elasticsearch', git: 'https://github.com/positronicninja/gnr_elasticsearch.git'
 cookbook 'nginx', git: 'https://github.com/positronicninja/chef_nginx_templates.git'
 cookbook 'unicorn', git: 'https://github.com/positronicninja/chef_unicorn_templates.git'
