@@ -3,6 +3,7 @@ source "https://api.berkshelf.com"
 
 metadata
 
+cookbook 'opsworks_ruby'
 cookbook 's3fs', '~> 3.0.4', git: 'https://github.com/twilson63/s3fs-recipe.git'
 cookbook 'opsworks-rails-precompile', git: 'https://github.com/positronicninja/opsworks-rails-precompile.git'
 cookbook 'opsworks-cookbook-custom-env', git: 'https://github.com/diegodurante/opsworks-cookbook-custom-env.git'
