@@ -3,6 +3,7 @@ source "https://api.berkshelf.com"
 
 metadata
 
+cookbook 'redis', git: 'https://github.com/Gryphon-And-Rook-Inc/redis.git'
 cookbook 'mruby', git: 'https://github.com/Gryphon-And-Rook-Inc/mruby.git'
 cookbook 'nodejs', git: 'https://github.com/Gryphon-And-Rook-Inc/nodejs.git'
 cookbook 's3fs', '~> 3.0.4', git: 'https://github.com/twilson63/s3fs-recipe.git'
