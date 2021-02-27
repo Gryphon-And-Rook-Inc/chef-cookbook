@@ -3,6 +3,7 @@ source "https://api.berkshelf.com"
 
 metadata
 
+cookbook 'mruby', '~> 0.4.1'
 cookbook 'nodejs', git: 'https://github.com/Gryphon-And-Rook-Inc/nodejs.git'
 cookbook 's3fs', '~> 3.0.4', git: 'https://github.com/twilson63/s3fs-recipe.git'
 cookbook 'opsworks-rails-precompile', git: 'https://github.com/positronicninja/opsworks-rails-precompile.git'
