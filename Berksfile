@@ -3,7 +3,6 @@ source "https://api.berkshelf.com"
 
 metadata
 
-cookbook 'opsworks_tools', git: 'https://github.com/Gryphon-And-Rook-Inc/opsworks_tools.git'
 cookbook 'redis', git: 'https://github.com/Gryphon-And-Rook-Inc/redis.git'
 cookbook 'mruby', git: 'https://github.com/Gryphon-And-Rook-Inc/mruby.git'
 cookbook 'nodejs', git: 'https://github.com/Gryphon-And-Rook-Inc/nodejs.git'
@@ -18,5 +17,3 @@ cookbook 'wkhtmltopdf-update', git: 'https://github.com/Gryphon-And-Rook-Inc/wkh
 cookbook 'gnr_elasticsearch', git: 'https://github.com/positronicninja/gnr_elasticsearch.git'
 cookbook 'nginx', git: 'https://github.com/positronicninja/chef_nginx_templates.git'
 cookbook 'unicorn', git: 'https://github.com/positronicninja/chef_unicorn_templates.git'
-cookbook 'opsworks_ruby', '1.4.0'
-cookbook 'packages', '~> 1.0.0'
