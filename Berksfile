@@ -6,6 +6,7 @@ metadata
 cookbook 'redis', git: 'https://github.com/Gryphon-And-Rook-Inc/redis.git'
 cookbook 'mruby', git: 'https://github.com/Gryphon-And-Rook-Inc/mruby.git'
 cookbook 'nodejs', git: 'https://github.com/Gryphon-And-Rook-Inc/nodejs.git'
+cookbook 'yarn', git: 'https://github.com/Gryphon-And-Rook-Inc/yarn.git'
 cookbook 's3fs', '~> 3.0.4', git: 'https://github.com/twilson63/s3fs-recipe.git'
 cookbook 'opsworks-rails-precompile', git: 'https://github.com/positronicninja/opsworks-rails-precompile.git'
 cookbook 'opsworks-cookbook-custom-env', git: 'https://github.com/diegodurante/opsworks-cookbook-custom-env.git'
